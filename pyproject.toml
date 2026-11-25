@@ -1,0 +1,18 @@
+[project]
+name = "tool-contract-validator"
+version = "0.1.0"
+description = "Dynamic Conformance Test Harness & JSONSchema Contract Verifier for Agent Skills"
+authors = [{name = "Infrastructure Lab", email = "eng@lab.internal"}]
+dependencies = [
+    "pydantic>=2.6.0",
+    "fastapi>=0.109.0",
+    "uvicorn>=0.27.0",
+    "httpx>=0.26.0",
+    "jsonschema>=4.21.0",
+    "pandas>=2.2.0"
+]
+requires-python = ">=3.11"
+
+[build-system]
+requires = ["setuptools>=68.0.0"]
+build-backend = "setuptools.build_meta"
